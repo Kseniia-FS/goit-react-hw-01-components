@@ -1,0 +1,23 @@
+.statistics {
+  width: 400px;
+  border: #000 1px solid;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.statList {
+  display: flex;
+  padding: 0;
+}
+
+.item {
+  flex-basis: calc(100% / 5);
+  align-items: center;
+  border: #000 1px solid;
+  display: flex;
+  flex-direction: column;
+}
